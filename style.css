@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Georgian", sans-serif;
+  
+}
+.container{
+  margin: 0px auto;
+  width: 1140px;
+}
+
+.nav-title-text{
+    color: #F1CDB3;
+}
+
+header {
+  background: rgb(130, 80, 10);
+  background: linear-gradient(
+    90deg,
+    rgba(130, 80, 10, 1) 5%,
+    rgba(36, 12, 12, 1) 26%
+  );
+  color: white;
+  padding: 50px 100px 0px    50px;
+}
+.puppy-img{
+    width: 200px;
+}
+
+nav{
+  display: flex;
+ align-items: center;
+justify-content: space-between;}
+.nav-list{
+  list-style: none;
+    display: flex;
+    
+    
+}
+.nav-list-item{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 35px;
+    
+}
+.nav-list-item>a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list-item>a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.header-text{
+  width: 460px;
+}
+.header-text>h2{
+  font-family: Georgia;
+  font-size: 44px;
+  font-weight: 400;
+  
+}
+.header-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-text{
+  cursor: pointer;
+  width: 207px;
+  height: 52px;
+  border-radius: 100px;
+  border: none;
+  background-color: #be6f6f;
+}
+
+.main-text>h3{
+  color: black;
+  
+  font-family: Georgia;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+ 
+  
+}
+.main-text>p{
+  color: black;
+  
+font-family: Arial;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+
+
+}
+.about-shelter{
+   
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main-text{
+  width: 430px;
+}
+.about-shelter{
+  margin: 80px 0px 100px 0px;
+}
+.donation-section{
+  background-color: #f6f6f6 ;
+}
+
+
+
+.photo-cat{
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+height: 270px;
+gap: 0px;
+border-radius: 9px 9px 0px 0px;
+opacity: 0px;
+align-items: center;
+}
+.img-card-btn{
+  border-radius: 100px;
+padding: 15px 45px;
+border: color #F1CDB3 2px;
+background-color: transparent;
+
+}
+
+
+.friends-card-text{
+
+font-family: Georgia;
+font-size: 35px;
+font-weight: 400;
+line-height: 45.5px;
+color: #545454;
+text-align: center;
+
+}
+
+
+.photo-cat>span{
+  color:#545454 ;
+font-size: 20px;
+font-weight: 400;
+line-height: 22.72px;
+letter-spacing: 0.06em;
+text-align: center;
+
+}
+.img-card-btn:hover{
+  cursor: pointer;
+  background-color: #be6f6f;
+  color: white;
+}
+.img-card-btn{
+  font-family: Georgia;
+font-size: 17px;
+font-weight: 400;
+line-height: 22.1px;
+letter-spacing: 0.06em;
+text-align: left;
+margin: 30px 0px;
+transition:   ease;
+border-color: #F1CDB3;
+
+}
+
+.our-friends{
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+.section-title{
+
+font-family: Georgia;
+font-size: 35px;
+font-weight: 400;
+line-height: 45.5px;
+letter-spacing: 0.06em;
+text-align: center;
+color:  #545454;
+;
+}
+.down-btn{
+  margin-top: 112px;
+  padding: 15px 45px;
+  border-radius: 100px;
+  border: none;
+  background-color:#F1CDB3;
+  cursor: pointer
+  ;
+}
+.our-friends{
+  margin-left: 70px; 
+}
+.help-card{
+  row-gap: 30px;
+  display: grid;
+  width: 82px;
+  text-align: center;
+
+}
+.help-card>img{
+  width: 60px;
+  margin: 0 auto;
+
+}
+.help-card span{
+ 
+
+font-size: 20px;
+font-weight: 400;
+color: #545454;
+
+
+}
+.help-section{
+  margin-top: 80px;
+}
+
+.help-cards-container-one{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.help-cards-container-two{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.donation-section-box{
+  display: flex;
+  gap: 30px;
+  
+}
+.donation-section{
+  background-color: #F6F6F6;
+  margin-top: 100px;
+  padding-top: 91px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+.donation-text>h3{
+
+font-family: Georgia;
+font-size: 35px;
+font-weight: 400;
+line-height: 45.5px;
+letter-spacing: 0.06em;
+
+
+  color: #545454;
+}
+.donation-text>h5{
+ 
+  font-family: Georgia;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16.5px;
+  letter-spacing: 0.06em;
+  margin: 20px 0px;  
+    color: #545454; 
+  }
+  .donation-card-box{
+    background-color: #F1CDB3;
+    border-radius: 9px;
+    padding: 10px 15px ;
+    width: 349px;
+  }
+  .donation-card-box>span{
+    color: #545454;
+  
+font-family: Georgia;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.06em;
+margin-left: 5px;
+
+  }
+  .donation-text>p{
+    margin-top: 20px;
+    color: #B2B2B2;
+    font-family: Arial;
+font-size: 12px;
+font-style: italic;
+font-weight: 400;
+line-height: 18px;
+width: 380px;
+
+  }
+  footer{
+    background: rgb(130, 80, 10);
+  background: linear-gradient(
+    90deg,
+    rgba(130, 80, 10, 1) 5%,
+    rgba(36, 12, 12, 1) 26%
+  );
+  }
+  footer h3{
+    color: white;
+   
+font-family: Georgia;
+font-size: 35px;
+font-weight: 400;
+line-height: 45.5px;
+letter-spacing: 0.06em;
+
+  }
+  .icon-text-foot{
+    color: #F1CDB3;
+    font-size: 20px;
+    letter-spacing: 3px;
+   margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .foot-box{
+    margin-top: 100px;
+    padding: 40px 40px 0px 0px ;
+    display:flex;
+   justify-content: space-around;
+    align-items: center;
+  }
+  .icon-text-foot{
+    margin-bottom: 64px;
+  }
